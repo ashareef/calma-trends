@@ -1,4 +1,56 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.calmatrends.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Calma Trends"
 theme = "hugo-smpl-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Calma Trends"
+  description = "Indian Pakistani Ladies Clothes Garments GTA Toronto Markham"
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Calma<br>Trends"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Indian & Pakistani Ladies Garments. Salwar Kameez & Dress Materials."
+
+  # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "https://www.facebook.com/calma.trends"
+
+  [[params.social]]
+    title = "Instagram"
+    icon = "fa-instagram"
+    link = "https://www.instagram.com/calmatrends/"
+
+  [[params.social]]
+    title = "Email"
+    icon = "fa-envelope"
+    link = "mailto:aj.shareef@gmail.com"
+
