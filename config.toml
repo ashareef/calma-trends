@@ -22,6 +22,13 @@ googleAnalytics = ""
       enable = true
       speed = 500
 
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "assets/img/logo.png"
+    alt = "BlackTie.co"
+    width = "100"
+
   # Header section
   [params.header]
     enable = true
@@ -30,7 +37,7 @@ googleAnalytics = ""
   # Quote section
   [params.quote]
     enable = true
-    text = "Indian & Pakistani Ladies Garments. Salwar Kameez & Dress Materials."
+    text = "Special Launch Sale!!!<br>Everything from $10-$99.<br>Ready made Salwars, Kurtis, Shararas and Dress Materials"
 
   # Social icons section
   # Add a modifier class to increase size
@@ -52,5 +59,5 @@ googleAnalytics = ""
   [[params.social]]
     title = "Email"
     icon = "fa-envelope"
-    link = "mailto:aj.shareef@gmail.com"
+    link = "mailto:calmatrends@gmail.com"
 
