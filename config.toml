@@ -32,7 +32,8 @@ googleAnalytics = ""
   # Header section
   [params.header]
     enable = true
-    title = "Calma<br>Trends"
+    title1 = "Calma"
+    title2 = "TRENDS"
 
   # Quote section
   [params.quote]
